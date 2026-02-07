@@ -3,6 +3,7 @@ name: Lab1 .NET Build and Deploy
 
 # Define triggers - when should this workflow run?
 on:
+  workflow_dispatch:
   push:
     branches: [ master ]
   pull_request:
